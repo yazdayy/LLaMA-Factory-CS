@@ -10,6 +10,11 @@ To run fine-tuning code:
 ```
 qsub LLaMA-Factory/nscc/run_sft_qlora.sh
 ```
+To merge LoRA adapters with base model:
+- Run bash/PBS job script to merge:
+```
+qsub LLaMA-Factory/nscc/run_merge.sh
+```
 Data used for fine-tuning:
 - The data used for fine-tuning can be found in:
 ```
